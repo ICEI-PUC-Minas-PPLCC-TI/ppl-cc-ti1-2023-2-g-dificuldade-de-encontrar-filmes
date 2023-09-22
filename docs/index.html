@@ -107,9 +107,12 @@
                     </li>
                     <li><strong>Membros da equipe:</strong>
                       <ul>
-                        <li><a href="https://github.com/Enzo-MA">Enzo Monteiro Alves</a><span class="exemplo">EXEMPLO</span></li>
+                        <li><a href="https://github.com/Enzo-MA">Enzo Monteiro Alves</a></li>
                         <li><a href="https://github.com/drinPedro">Pedro Henrique Siman Bitencourt</a></li>
-                        <li><a href="https://github.com/cicrano">Cicrano</a></li>
+                        <li><a href="https://github.com/cicrano">João Victor Martins dos Anjos</a></li>
+                        <li><a href="https://github.com/cicrano">Gabryelle Franco Xavier</a></li>
+                        <li><a href="https://github.com/cicrano">André Rezende</a></li>
+                        <li><a href="https://github.com/cicrano">Pedro Rosemberg</a></li>
                       </ul>
                     </li>
                   </ul>
@@ -206,25 +209,70 @@
                 <table class="table">
                   <thead>
                       <tr>
-                          <th scope="col">EU COMO...<code>PERSONA</code></th>
-                          <th scope="col">QUERO/PRECISO...<code>FUNCIONALIDADE</code></th>
-                          <th scope="col">PARA...<code>MOTIVO/VALOR</code></th>
+                          <th scope="col">EU COMO...<code>Estudante que sonha em se tornar uma roteirista</code></th>
+                          <th scope="col">QUERO/PRECISO...<code>Assistir mais filmes, porém não perder muito tempo, ja que faço faculdade</code></th>
+                          <th scope="col">PARA...<code>Ganhar experiência no meio cinematográfico</code></th>
                       </tr>
                   </thead>
                   <tbody>
                       <tr>
                           <th scope="row">Usuário do sistema</th>
-                          <td>Registrar minhas tarefas<span class="exemplo">EXEMPLO</span></td>
-                          <td>Não esquecer de fazê-las</td>
+                          <td>Registrar meus gostos</td>
+                          <td>O site rastrear filmes que me interessem</td>
                       </tr>
                       <tr>
                           <th scope="row">Administrador</th>
-                          <td>Alterar permissões<span class="exemplo">EXEMPLO</span></td>
-                          <td>Permitir que possam administrar contas</td>
+                          <td>Recomendar os filmes baseados no interesse</td>
+                          <td>Poupar o tempo e não atrapalhar sua rotina</td>
+                      </tr>
+                  </tbody>
+                </table>
+                <P>História 2</P>
+                <table class="table">
+                  <thead>
+                      <tr>
+                          <th scope="col">EU COMO...<code>Dono de um serviço de streaming</code></th>
+                          <th scope="col">QUERO/PRECISO...<code>Expandir o alcance do meu serviço</code></th>
+                          <th scope="col">PARA...<code>Manter o crescimento da minha empresa</code></th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <th scope="row">Usuário do sistema</th>
+                          <td>Fornecer o conteúdo apresentado no meu produto</td>
+                          <td>O site adicionar à seu banco de dados</td>
+                      </tr>
+                      <tr>
+                          <th scope="row">Administrador</th>
+                          <td>Fornecer a informação de onde é possivel assitir o filme, com um link de direcionamento</td>
+                          <td>Direcionar mais usuários ao produto do cliente.</td>
                       </tr>
                   </tbody>
                 </table>
               </section>
+              <p>Hisótria 3</p>
+              <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">EU COMO...<code>Casa recém casado</code></th>
+                        <th scope="col">QUERO/PRECISO...<code>Concíliar os meus gostos com a da minha parceira</code></th>
+                        <th scope="col">PARA...<code>Decidirmos o filme que veremos</code></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Usuário do sistema</th>
+                        <td>Combinrmos coisas que ambos gostamos</td>
+                        <td>Acharmos um filme que agrade ambos</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Administrador</th>
+                        <td>Receber e combinar as características inseridas</td>
+                        <td>Recomendar filmes que se encaixem e seja de bom gosto para ambos</td>
+                    </tr>
+                </tbody>
+              </table>
+            </section>
 
               <section>
                 <h5>Requisitos</h5>
@@ -255,14 +303,29 @@
                   <tbody>
                       <tr>
                           <th scope="row">RF-001</th>
-                          <td>Permitir que o usuário cadastre tarefas<span class="exemplo">EXEMPLO</span></td>
+                          <td>Permitir que o usuário cadastre seus gostos e que possamos identfica-los</td>
                           <td>ALTA</td>
                       </tr>
                       <tr>
                           <th scope="row">RF-002</th>
-                          <td>Emitir um relatório de tarefas no mês<span class="exemplo">EXEMPLO</span></td>
-                          <td>MÉDIA</td>
+                          <td>Proporcionar um catalogo com informações sobre os filmes como: avaliações, elenco,duração, disponibilidade,etc.</td>
+                          <td>ALTA</td>
                       </tr>
+                      <tr>
+                        <th scope="row">RF-003</th>
+                        <td>Apresentar um sistema de SAC para receber reclamações ou ideias de melhoria dos usuários </td>
+                        <td>BAIXA</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">RF-004</th>
+                      <td>Fornecer um formato de interação entre os usuários, em que eles podem seguir diferentes perfis e comparar seus gostos e atividade com amigos</td>
+                      <td>MEDIA</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">RF-005</th>
+                    <td>Fornecer um sistema de avaliação do usuário para os filmes assistidos</td>
+                    <td>MEDIA</td>
+                </tr>
                   </tbody>
                 </table>
 
@@ -278,14 +341,15 @@
                   <tbody>
                       <tr>
                           <th scope="row">RNF-001</th>
-                          <td>O sistema deve ser responsivo para rodar em um dispositivos móvel<span class="exemplo">EXEMPLO</span></td>
+                          <td>O sistema deve ser responsivo para rodar em um dispositivos móvel</td>
                           <td>MÉDIA</td>
                       </tr>
+                      
                       <tr>
-                          <th scope="row">RNF-002</th>
-                          <td>Deve processar requisições do usuário em no máximo 3s<span class="exemplo">EXEMPLO</span></td>
-                          <td>BAIXA</td>
-                      </tr>
+                        <th scope="row">RNF-003</th>
+                        <td>Calcular uma nota de avaliação original baseado-se na media de outros portais</td>
+                        <td>MÉDIA</td>
+                    </tr>
                   </tbody>
                 </table>
               </section>
@@ -312,7 +376,7 @@
                     <iframe title="Protótipo interativo" src="https://marvelapp.com/prototype/4hd6091?emb=1&iosapp=false&frameless=false" width="600px" height="360px" allowtransparency="true" frameborder="0"></iframe>
                   </p>
                 </div>
-                <p>......  COLOQUE AQUI O DIAGRAMA DE USER FLOW E O LINK PARA O PROTÓTIPO INTERATIVO ......</p>
+                <p><img  class="img-fluid" src="assets/files/UserFLow.png" ></p>
               </section>
 
               <section>
