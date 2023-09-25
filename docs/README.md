@@ -71,19 +71,21 @@ Os requisitos de um projeto são classificados em dois grupos:
 Segue o link com o User Flow
 **Links Úteis**:
 - [User Flow](https://www.figma.com/community/tag/review/free)
+- [Prótotipo interativo](https://marvelapp.com/prototype/10199a40)
 
 ## Wireframes
 Segue o link com os WireFrames
 - [Figma](https://www.figma.com/community/tag/review/free)
 
+
 ## Gestão de Projetos
 TAREFAS:
--Informações individuais dos filmes: Enzo
--Sistema de recomendações: Pedro R.
--Catálogo geral: João Martins
--Sistema de avaliação individual: Pedro S.
--Ranking dos filmes: André Rezede
--SAC: Gabryelle
+- Informações individuais dos filmes: Enzo
+- Sistema de recomendações: Pedro R.
+- Catálogo geral: João Martins
+- Sistema de avaliação individual: Pedro S.
+- Ranking dos filmes: André Rezede
+- SAC: Gabryelle
 **Links Úteis**:
 
 - [trello](https://trello.com/invite/b/peaPnun8/ATTI966701a27b5f77f1f29305f60a3aba513E899AF5/kanban)
