@@ -20,112 +20,70 @@ Esta seção traz explicações breves sobre o conjunto de artefatos que precisa
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação. Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
+Atualmente o acesso a filmes está cada vez mais simples, mas essa simplicidade e o grande leque de oções 
+desenvolveram um novo problema. Muitas pessoas perdem muito tempo procurando um filme para e até mesmo desistem ante mesmo de achar, porque cansou ou a comida ja acabou, entre outro motivos.Esse é o problema que nosso time pretende resolver.
 
-Nesse momento, o grupo pode optar por fazer uso de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+
 
 **Links Úteis**:
 
-- [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-- [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-- [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+- [Matriz Certezas, Suposições,Brainstorming e Dúvidas](https://miro.com/app/board/uXjVMoA9Jqo=/?share_link_id=91568262008)
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
-
-**Links Úteis**:
-
-- [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Facilitar e otimizar o acesso a filmes, usando como base os interesses indivduais do usuário. ATravés da apresentação de filmes baseados nos gostos do usuário e informações especificas de sobre filmes que pode instigar um interesse.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Um problema pouco falado porém muito comum. E com o aumento na quantidade de filmes e meios para assistí-los, a tedência do problema é aumentar e cada vez tomar o tempo das pessoas.Experiências próprias com esse problemas e alguns depoimentos nas entrevistas nos motivaram a seguir com essa ideia e tentar resolver esse problema.
 
 **Links Úteis**:
 
-- [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+- [Entrevistas](https://miro.com/app/board/uXjVMoA9Jqo=/?share_link_id=91568262008)
 
 ## Público-Alvo
-
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, ou diagramas de personas, mapa de stakeholders, ou como o grupo achar mais conveniente.
-
-**Links Úteis**:
-
-- [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-- [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Qualquer indivíduo que se interesse pela arte do cinema.
 
 ## Personas
 
-Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que você deve ser enumerar e descrever precisamente e de forma personalizada todos os principais envolvidos com a solução almeja.
+1-Juliana(20 anos)-Hobby:ler,Trabalho:Estudante,Personalidade:Introvertida,Criativa,Engajada com questões sociais, Sonhos:Ser roteirista,viajar o mundo e fazer a diferença na sociedade.
+2-André(46 anos)-Hobby: Esportes,Trabalho: CEO de uma empresa de streaming, Personalidade:Esforçado, Proativo e egocêntrico,Sonhos: ser o dono da maior empresa de streaming do mundo.
 
 **Links Úteis**:
 
-- [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-- [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-- [Rock Content](https://rockcontent.com/blog/personas/)
-- [Criar personas (Hotmart)](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-
+- [miro](https://miro.com/app/board/uXjVMoA9Jqo=/?share_link_id=91568262008)
 ## Histórias de Usuários
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-**Links Úteis**:
-
-- [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-- [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
+1-Juliana deseja ver um filme para adquirir experiência e repertório para seu sonho de carreira. Entretanto está em semana de prova na faculade e não pode se dar ao luxo de perder muito tempo além da duração do filme
+2-André busca crescer a sua empresa e sua lucratividade e deseja atingir um maior numero de pessoas com o que seu site tem a oferecer.
+3-Um casal deseja assistir um filme no final de semana, mas encontram um entrave:seus gostos são muito diferentes e não conseguem chegar a um acordo sobre qual filme ver.
 
 ## Requisitos
 
 Os requisitos de um projeto são classificados em dois grupos:
 
 - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
-  correspondem a uma funcionalidade que deve estar presente na plataforma (ex: cadastro de usuário).
+  Permitir que o usuário cadastre seus gostos e que possamos identfica-los, proporcionar um catalogo com informações sobre os filmes como: avaliações, elenco,duração, disponibilidade,etc., apresentar um sistema de SAC para receber reclamações ou ideias de melhoria dos usuários, fornecer um formato de interação entre os usuários, em que eles podem seguir diferentes perfis e comparar seus gostos e atividade com amigos, fornecer um sistema de avaliação do usuário para os filmes assistidos.
 - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade, desempenho, confiabilidade, segurança ou outro (ex: suporte a dispositivos iOS e Android).
-
-Lembre-se que cada requisito deve corresponder à uma e somente uma característica alvo da sua solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-
-**Links Úteis**:
-
-- [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-- [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+  O sistema deve ser responsivo para rodar em dispositivos móvel,calcular uma nota de avaliação original baseado-se na media de outros portais,aprsentar os filmes recomendados em menos de 30s.
 
 ## User Flow
-
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
+Segue o link com o User Flow
 **Links Úteis**:
-
-- [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-- [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-- [Top 25 User Flow Tools &amp; Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+- [User Flow](https://www.figma.com/community/tag/review/free)
 
 ## Wireframes
-
-Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante ao layout de elementos fundamentais na interface.
-
-**Links Úteis**:
-
-- [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-- [Figma](https://www.figma.com/)
-- [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-- [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
+Segue o link com os WireFrames
+- [Figma](https://www.figma.com/community/tag/review/free)
 
 ## Gestão de Projetos
-
- Nesta parte do documento, você deve apresentar  o processo de trabalho baseado nas metodologias ágeis, a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a gestão de configuração do projeto via GitHub.
-
-Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
-
+TAREFAS:
+-Informações individuais dos filmes: Enzo
+-Sistema de recomendações: Pedro R.
+-Catálogo geral: João Martins
+-Sistema de avaliação individual: Pedro S.
+-Ranking dos filmes: André Rezede
+-SAC: Gabryelle
 **Links Úteis**:
 
-- [Sobre Projects - GitHub Docs](https://docs.github.com/pt/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
-- [Gestão de projetos com GitHub | balta.io](https://balta.io/blog/gestao-de-projetos-com-github)
-- [(460) GitHub Projects - YouTube](https://www.youtube.com/playlist?list=PLiO7XHcmTsldZR93nkTFmmWbCEVF_8F5H)
-- [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-- [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+- [trello](https://trello.com/invite/b/peaPnun8/ATTI966701a27b5f77f1f29305f60a3aba513E899AF5/kanban)
