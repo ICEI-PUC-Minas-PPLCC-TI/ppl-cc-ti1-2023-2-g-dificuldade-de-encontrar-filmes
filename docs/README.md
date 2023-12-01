@@ -21,7 +21,7 @@ Esta seção traz explicações breves sobre o conjunto de artefatos que precisa
 ## Problema
 
 Atualmente o acesso a filmes está cada vez mais simples, mas essa simplicidade e o grande leque de oções 
-desenvolveram um novo problema. Muitas pessoas perdem muito tempo procurando um filme para e até mesmo desistem ante mesmo de achar, porque cansou ou a comida ja acabou, entre outro motivos.Esse é o problema que nosso time pretende resolver.
+desenvolveram um novo problema. Muitas pessoas perdem muito tempo procurando um filme para e até mesmo desistem ante mesmo de achar, porque cansou ou a comida ja acabou, entre outro motivos. Uma pesquisa foi feita entre jovens e adultos em que foi informado que muitos deles gastam pelo menos 30 minutos para decidir qual filme assistir(por diversos motivos), esse é o problema que nosso time pretende resolver.
 
 
 
@@ -31,11 +31,11 @@ desenvolveram um novo problema. Muitas pessoas perdem muito tempo procurando um 
 
 ## Objetivos
 
-Facilitar e otimizar o acesso a filmes, usando como base os interesses indivduais do usuário. ATravés da apresentação de filmes baseados nos gostos do usuário e informações especificas de sobre filmes que pode instigar um interesse.
+Nosso objetivo é recomendar um número limitado de filmes para o usuário, baseando-nos nas preferências e características pessoais. Com isso o intuito é reduzir o tempo gasto pelo usuário quando deseja ver um filme, mas não consegue se decidir em meio a tantas opções.
 
 ## Justificativa
 
-Um problema pouco falado porém muito comum. E com o aumento na quantidade de filmes e meios para assistí-los, a tedência do problema é aumentar e cada vez tomar o tempo das pessoas.Experiências próprias com esse problemas e alguns depoimentos nas entrevistas nos motivaram a seguir com essa ideia e tentar resolver esse problema.
+Foi feita uma pesquisa entre amigos e conhecidos em que muitos deles indicaram esse problema, e que conhecem pessoas que passam pelo mesmo. Com isso percebe-se que esse é um problema relativamente comum, muitas pessoas perdem muito tempo para decidir os filmes que desejam assistir. Seja por uma dificuldade de entrar em acordo com seu companheiro ou até mesmo não conseguir tomar uma decisão. Por isso, fizemos o projeto, para facilitar esse processo.
 
 **Links Úteis**:
 
