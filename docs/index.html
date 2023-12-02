@@ -133,7 +133,7 @@
               <div class="alert alert-warning collapse" role="alert" id="collapseProblema">
                 Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação. Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
               </div>
-              <p> A perda de tempo e a grande decisão durante o periodo separado para escolher o filme a ser visto.</p>
+              <p> Atualmente o acesso a filmes está cada vez mais simples, mas essa simplicidade e o grande leque de opções desenvolveram um novo problema. Muitas pessoas perdem muito tempo procurando um filme para e até mesmo desistem antes mesmo de achar, porque cansou ou a comida já acabou, entre outro motivos. Uma pesquisa foi feita entre jovens e adultos em que foi informado que muitos deles gastam pelo menos 30 minutos para decidir qual filme assistir(por diversos motivos), esse é o problema que nosso time pretende resolver.</p>
             </section>
 
             <section>
@@ -142,7 +142,7 @@
               <div class="alert alert-warning collapse" role="alert" id="collapseObjetivos">
                 Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
               </div>
-              <p>Facilitar e orimizar o acesso a filmes, usando como base os interesses indivduais do usuário.</p>
+              <p>Nosso objetivo é recomendar um número limitado de filmes para o usuário, baseando-nos nas preferências e características pessoais. Com isso o intuito é reduzir o tempo gasto pelo usuário quando deseja ver um filme, mas não consegue se decidir em meio a tantas opções.</p>
             </section>
 
             <section>
@@ -151,7 +151,7 @@
               <div class="alert alert-warning collapse" role="alert" id="collapseJustificativa">
                 Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software. O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
               </div>
-              <p>Um problema pouco falado porém muito comum. E com o aumento na quantidade de filmes e meios para assistí-los, a tedência do problema é aumentar e cada vez tomar mais o tempo das pessoas.Experiências próprias com esse problemas e alguns depoimentos nas entrevistas nos motivaram a seguir com essa ideia e tentar resolver esse problema.</p>
+              <p>Foi feita uma pesquisa entre amigos e conhecidos em que muitos deles indicaram esse problema, e que conhecem pessoas que passam pelo mesmo. Com isso percebe-se que esse é um problema relativamente comum, muitas pessoas perdem muito tempo para decidir os filmes que desejam assistir. Seja por uma dificuldade de entrar em acordo com seu companheiro ou até mesmo não conseguir tomar uma decisão. Por isso, fizemos o projeto, para facilitar esse processo.</p>
             </section>
 
             <section>
@@ -161,7 +161,7 @@
                 Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
                 Adicione informações sobre o público-alvo por meio de uma descrição textual, ou diagramas de personas, mapa de stakeholders, ou como o grupo achar mais conveniente.
               </div>
-              <p>Qualquer indivíduo que se interesse pela arte do cinema.</p>
+              <p>Adultos e adolescentes que compartilham do gosto de ver filmes, mas tem problemas de decidir o que ver.</p>
             </section>
 
           </section>
@@ -393,7 +393,7 @@
                   <p>Os Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante ao layout de elementos fundamentais na interface. <img  class="img-fluid" src="assets/images/exemplo-wireframe.png" alt="Exemplo de wireframe"></p>
                 </div>
                 <p> Os wireframes são apresentados da seguinte forma:<ul><li>Inserir gostos pessoais</li><li>Catálogo de Filmes</li>
-                  <li>Pagina de Perfil</li><li>Pagina individual do ator/equipe</li><li>SAC</li><li>HOME Page</li><li>Pagina individual do filme</li><li>Pagina dos Filmes sugeridos</li><li>Pagina da seleção completamente aleatótia</li><li>Ranking dos filmes no site</li></ul><object data="assets/files/WIREFRAME.pdf" type="application/pdf" width="100%" height="500px"></object></p>
+                  <li>Pagina de Perfil</li><li>Pagina individual do ator/equipe</li><li>Minha Lista</li><li>HOME Page</li><li>Pagina individual do filme</li><li>Pagina dos Filmes sugeridos</li><li>Pagina da seleção completamente aleatótia</li><li>Ranking dos filmes no site</li></ul><object data="assets/files/WIREFRAME.pdf" type="application/pdf" width="100%" height="500px"></object></p>
               </section>
 
             </section>
@@ -515,14 +515,72 @@
               </div>
 
               <section>
-                <h5>Funcionalidade 1 - Cadastro de Contatos<span class="exemplo">EXEMPLO</span></h5>
-                <p>Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema</p>
+                <h5>Funcionalidade 1 - Cadastro de Filtros</h5>
+                <p>Permite a inclusão de filtros específicos desejados pelo usuario</p>
                 <ul class="list-unstyled">
-                  <li><strong>Estrutura de dados: </strong><a href="#ti_ed_contatos">Contatos</a></li>
+                  <li><strong>Estrutura de dados: </strong><a href="#ti_ed_contatos">Filtros</a></li>
                   <li><strong>Instruções de acesso: </strong><ul>
-                    <li>Abra o site e efetue o login</li>
-                    <li>Acesse o menu principal e escolha a opção Cadastros </li>
-                    <li>Em seguida, escolha a opção Contatos</li>
+                    <li>Abra o site e clique na estrela central</li>
+                    <li>Escolha entre as opões de filtro apresentadas</li>
+                  </ul></li>
+                </ul>
+                <h5>Funcionalidade 2 - Recomendação de Filmes</h5>
+                <p>Baseando-se nos filtros escolhidos o site recomenda 3 filmes ao usuário</p>
+                <ul class="list-unstyled">
+                  <li><strong>Estrutura de dados: </strong><a href="">Filmes recomendados</a></li>
+                  <li><strong>Instruções de acesso: </strong><ul>
+                    <li>Escolhas os filtros desejados</li>
+                    <li>Clique na opção: escolha filme </li>
+                    <li>Em seguida, escolha entre as opções apresentadas</li>
+                  </ul></li>
+                </ul>
+                <h5>Funcionalidade 3 - Catálogo</h5>
+                <p>Catálogo Geral que informa todos os filmes no banco de dados do site.</p>
+                <ul class="list-unstyled">
+                  <li><strong>Estrutura de dados: </strong><a href="">Catalogo</a></li>
+                  <li><strong>Instruções de acesso: </strong><ul>
+                    <li>Abra o site </li>
+                    <li>Veja o catalogo </li>
+                    <li>Role o site e mude as paginas para ver os varios filmes</li>
+                  </ul></li>
+                </ul>
+                <h5>Funcionalidade 4- Pagina com informações especficas de filmes e atores</h5>
+                <p> Ao clicar em um poster, o usuario será direcionado para uma pagina com informações esecíficas dos filmes. E ao pesquisar nomes de atores será direcionado para pagina com informações específicas do mesmo.</p>
+                <ul class="list-unstyled">
+                  <li><strong>Estrutura de dados: </strong><a href="">Informações específicas</a></li>
+                  <li><strong>Instruções de acesso: </strong><ul>
+                    <li>Clique em algum filme/ator específico</li>
+                    <li>Uma pagina será aberta com as informações especificas do filme/ator escolhido </li>
+                  </ul></li>
+                </ul>
+                <h5>Funcionalidade 5- Avaliações</h5>
+                <p>Possibilidade de avaliar filmes vistos</p>
+                <ul class="list-unstyled">
+                  <li><strong>Estrutura de dados: </strong><a href="">Avaliações</a></li>
+                  <li><strong>Instruções de acesso: </strong><ul>
+                    <li>Abra a pagina especifica de um filme</li>
+                    <li>Clique no numero de estrelas </li>
+                    <li>Adicione um comentario</li>
+                    <li>envie!</li>
+                  </ul></li>
+                </ul>
+                <h5>Funcionalidade 6- Lista "Quero ver"</h5>
+                <p>Possibilita o usuario a criar uma lista de filmes que deseja ver no futuro</p>
+                <ul class="list-unstyled">
+                  <li><strong>Estrutura de dados: </strong><a href="">"Quero Ver"</a></li>
+                  <li><strong>Instruções de acesso: </strong><ul>
+                    <li>Abra a pagina individual do filme</li>
+                    <li>Clique no botão para adiciona-lo à lista </li>
+                  </ul></li>
+                </ul>
+                <h5>Funcionalidade 7- Pagina de Futuros Lançamentos</h5>
+                <P> Permite a visualização de filme a serem lançados nas diversas plataformas(Cinema,Netflix,etc.)</P>
+                <ul class="list-unstyled">
+                  <li><strong>Estrutura de dados: </strong><a href="">Futuros lançamentos</a></li>
+                  <li><strong>Instruções de acesso: </strong><ul>
+                    <li>Abra o site</li>
+                    <li>Acesse a opção: Futuros Lançamentos </li>
+                    <li>Veja os filmes que ainda não foram lançados.</li>
                   </ul></li>
                 </ul>
                 <p class="text-center"><img class="img-fluid" src="assets/images/exemplo-funcionalidade.png" alt="Tela Cadastro de Contatos"></p>
@@ -541,32 +599,64 @@
               </div>
 
               <section>
-                <h5>Estrutura de Dados - Contatos<span class="exemplo">EXEMPLO</span></h5>
-                <p>Contatos da aplicação</p>
+                <h5>Estrutura de Dados - Pagina Indiviual(Filmes)</h5>
+                <p>Informações individuais dos Filmes</p>
                 <pre>
                   {
-                    "id": 1,
-                    "nome": "Leanne Graham",
-                    "cidade": "Belo Horizonte",
-                    "categoria": "amigos",
-                    "email": "Sincere@april.biz",
-                    "telefone": "1-770-736-8031",
-                    "website": "hildegard.org"
+                    "adult": false,
+                    "backdrop_path": "/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
+                    "id": 299536,
+                    "title": "Vingadores: Guerra Infinita",
+                    "original_language": "en",
+                    "original_title": "Avengers: Infinity War",
+                    "overview": "Homem de Ferro, Thor, Hulk e os Vingadores se unem para combater seu inimigo mais poderoso, o maligno Thanos. Em uma missão para coletar todas as seis pedras infinitas, Thanos planeja usá-las para infligir sua vontade maléfica sobre a realidade.",
+                    "poster_path": "/rkHe0BfOo1f5N2q6rxgdYac7Zf6.jpg",
+                    "media_type": "movie",
+                    "genre_ids": [
+                      12,
+                      28,
+                      878
+                    ],
+                    "popularity": 241.254,
+                    "release_date": "2018-04-25",
+                    "video": false,
+                    "vote_average": 8.3,
+                    "vote_count": 28031
                   }
                 </pre>
               </section>
 
               <section>
-                <h5>Estrutura de Dados - Usuários<span class="exemplo">EXEMPLO</span></h5>
-                <p>Registro dos usuários do sistema utilizados para login e para o perfil do sistema</p>
+                <h5>Estrutura de Dados - Paginas Individuais(atores)</h5>
+                <p>Informações especificas dos atores</p>
                 <pre>
                   {
-                    id: "eed55b91-45be-4f2c-81bc-7686135503f9"
-                    email: "admin@abc.com"
-                    id: "eed55b91-45be-4f2c-81bc-7686135503f9"
-                    login: "admin"
-                    nome: "Administrador do Sistema"
-                    senha: "123"
+                    "adult": false,
+                    "also_known_as": [
+                      "Энн Хэтэуэй",
+                      "Anne Whitney Hathaway",
+                      "앤 해서웨이",
+                      "Anne Jacqueline Hathaway",
+                      "Αν Χάθαγουεϊ",
+                      "安妮·海瑟薇",
+                      "Енн Гетевей",
+                      "安·海瑟薇",
+                      "Αν Γουίτνεϊ Χάθαγουεϊ",
+                      "آن هاتاوی",
+                      "アン・ハサウェイ"
+                    ],
+                    "biography": "Anne Jacqueline Hathaway (born November 12, 1982) is an American actress. She is the recipient of various accolades, including an Academy Award, a Golden Globe Award, and a Primetime Emmy Award, and was among the world's highest-paid actresses in 2015. Her films have grossed over $6.8 billion worldwide, and she appeared on the Forbes Celebrity 100 list in 2009.\n\nHathaway graduated from Millburn High School in New Jersey, where she performed in several plays. As a teenager, she was cast in the television series Get Real (1999–2000) and made her breakthrough as the protagonist in her debut film, the Disney comedy The Princess Diaries (2001). Hathaway made a transition to adult roles with the 2005 dramas Havoc and Brokeback Mountain. The comedy-drama The Devil Wears Prada (2006), in which she played an assistant to a fashion magazine editor, was her biggest commercial success to that point. She played a recovering addict with a mental illness in the drama Rachel Getting Married (2008), which earned her a nomination for the Academy Award for Best Actress.  Hathaway went on to star in several commercially successful films, including the comedy Get Smart (2008), the romances Bride Wars (2009), Valentine's Day (2010), and Love & Other Drugs (2010), and the fantasy film Alice in Wonderland (2010). In 2012, she starred as Selina Kyle / Catwoman in her highest-grossing film, The Dark Knight Rises. Also that year, she played Fantine, a prostitute dying of tuberculosis, in the musical Les Misérables, for which she won the Academy Award for Best Supporting Actress. She has since played a scientist in the science fiction film Interstellar (2014), the owner of an online fashion site in the comedy The Intern (2015), a haughty actress in the heist film Ocean's 8 (2018), a con artist in the comedy The Hustle (2019), and Rebekah Neumann in the miniseries WeCrashed (2022).\n\nIn addition to film roles, Hathaway has won a Primetime Emmy Award for her voice role in the sitcom The Simpsons, sung for soundtracks, appeared on stage, and hosted events.",
+                    "birthday": "1982-11-12",
+                    "deathday": null,
+                    "gender": 1,
+                    "homepage": null,
+                    "id": 1813,
+                    "imdb_id": "nm0004266",
+                    "known_for_department": "Acting",
+                    "name": "Anne Hathaway",
+                    "place_of_birth": "Brooklyn, New York,  USA",
+                    "popularity": 97.414,
+                    "profile_path": "/tLelKoPNiyJCSEtQTz1FGv4TLGc.jpg"
                   }
                 </pre>
               </section>
