@@ -318,7 +318,7 @@
                     </tr>
                     <tr>
                       <th scope="row">RF-004</th>
-                      <td>Fornecer um formato de interação entre os usuários, em que eles podem seguir diferentes perfis e comparar seus gostos e atividade com amigos</td>
+                      <td>Fornecer um formato de interação entre os usuários, em que eles podem combinar o gosto de duas pessoas e recomendar filmes</td>
                       <td>MEDIA</td>
                   </tr>
                   <tr>
@@ -326,6 +326,11 @@
                     <td>Fornecer um sistema de avaliação do usuário para os filmes assistidos</td>
                     <td>MEDIA</td>
                 </tr>
+                <tr>
+                  <th scope="row">RF-006</th>
+                  <td>Possibilitar o usuario de criar lista de filmes que deseja assitir</td>
+                  <td>MEDIA</td>
+              </tr>
                   </tbody>
                 </table>
 
@@ -340,20 +345,25 @@
                   </thead>
                   <tbody>
                       <tr>
-                          <th scope="row">RNF-001</th>
-                          <td>O sistema deve ser responsivo para rodar em dispositivos móvel</td>
-                          <td>MÉDIA</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">RNF-002</th>
+                        <th scope="row">RNF-001</th>
                         <td>Entrgar os filmes recomendados em pelo menos 30s</td>
                         <td>ALTA</td>
                     </tr>
                       <tr>
-                        <th scope="row">RNF-003</th>
+                        <th scope="row">RNF-002</th>
                         <td>Calcular uma nota de avaliação original baseado-se na media de outros portais</td>
                         <td>MÉDIA</td>
                     </tr>
+                    <tr>
+                      <th scope="row">RNF-003</th>
+                      <td>Apresentar filmes que ainda serão disponilizados ao público</td>
+                      <td>MÉDIA</td>
+                      <tr>
+                        <th scope="row">RNF-004</th>
+                        <td>Mostrar os filmes em alta no momento</td>
+                        <td>MÉDIA</td>
+                    </tr>
+                  </tr>
                   </tbody>
                 </table>
               </section>
@@ -476,7 +486,7 @@
                   <img class="img-fluid" src="assets/images/exemplo-workflow.png" alt="">
                 </p>
               </div>
-              <p>......  COLOQUE AQUI O SEU TEXTO ......</p>
+              <p>Cada mebro do grupo fez as tarefas que lhe foram designadas, e após correção de erros e possíveis bugs foi feita a junção. Na junção foi tomado o devido cuidado com as funções, constantes e variáveis utilizadas, para que elas não se anulem.</p>
             </section>
           </section>
           <hr class="divider">
@@ -746,6 +756,16 @@
                   },
                 </pre>
               </section>
+              <h5>Estrutura de Dados - Avaliações</h5>
+                <p>Dê notas e faça comentario sobre os filmes vistos</p>
+                <pre>
+                  {
+                    "id": 1,
+                    "rating": "5",
+                    "comment": "Muito bom o filme!"
+                  },
+                </pre>
+              </section>
             </section>
 
             <!-- Módulos e APIs ================= -->
@@ -759,26 +779,12 @@
               </div>
 
               <section>
-                <h5>Images:</h5>
+                <h5>Informações sobre os filmes:</h5>
                 <ul>
-                  <li>Unsplash - <a target="_blank" href="https://unsplash.com/">https://unsplash.com/</a><span class="exemplo">EXEMPLO</span></li>
+                  <li>TMDB - <a target="_blank" href="https://www.themoviedb.org/?language=pt-BR">https://www.themoviedb.org/?language=pt-BR</a></li>
                 </ul>
               </section>
 
-              <section>
-                <h5>Fonts:</h5>
-                <ul>
-                  <li>Icons Font Face - <a target="_blank" href="https://fontawesome.com/">https://fontawesome.com/</a><span class="exemplo">EXEMPLO</span></li>
-                </ul>
-              </section>
-
-              <section>
-                <h5>Scripts:</h5>
-                <ul>
-                  <li>jQuery - <a target="_blank" href="http://www.jquery.com/">http://www.jquery.com/</a><span class="exemplo">EXEMPLO</span></li>
-                  <li>Bootstrap 4 - <a target="_blank" href="http://getbootstrap.com/">http://getbootstrap.com/</a><span class="exemplo">EXEMPLO</span></li>
-                </ul>
-              </section>
             </section>
 
           </section>
@@ -794,46 +800,36 @@
               <p>Apresente uma lista de perguntas e respostas comuns associadas ao projeto. Inclua perguntas como: (1) detalhes de acesso e uso do projeto; (2) informações sobre a instalação e configuração da aplicação; (3) questões sobre a manutenção da aplicação; (4) detalhes sobre a integração da aplicação com outros sistemas; (5) questões sobre a segurança da aplicação.</p>
             </div>
 
-            <span class="exemplo">EXEMPLO</span>
             <div class="row">
               <div class="col-lg-12">
                 <div class="accordion accordion-alterate arrow-right" id="popularTopics">
                   <div class="card">
                     <div class="card-header" id="heading1">
                       <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse1"
-                          aria-expanded="false" aria-controls="collapse1">What does royalty free mean?</a> </h5>
+                          aria-expanded="false" aria-controls="collapse1">Como o catálogo é atualizado?</a> </h5>
                     </div>
                     <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#popularTopics">
-                      <div class="card-body"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                        printer took a galley of type and scrambled it to make a type specimen book. It has survived not
-                        only five centuries, but also the leap into electronic typesetting, remaining essentially
-                        unchanged. </div>
+                      <div class="card-body"> O program está conectado com uma api muito ativa, e sempre que essa api se atualizar
+                        ocorrerá o mesmo com o programa. Um exemplo disso é a parte de filmes a serem lançados.
+                      </div>
                     </div>
                   </div>
                   <div class="card">
                     <div class="card-header" id="heading2">
                       <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse2"
-                          aria-expanded="false" aria-controls="collapse2">What is a single application?</a> </h5>
+                          aria-expanded="false" aria-controls="collapse2">Como as avaliações são salvas?</a> </h5>
                     </div>
                     <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#popularTopics">
-                      <div class="card-body"> Iisque Anim pariatur cliche reprehenderit, enim eiusmod high life
-                        accusamus terry richardson ad squid. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
-                        moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
-                        et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-                        proident. Ad vegan excepteur butcher vice lomo. </div>
+                      <div class="card-body"> As avaliações dos filmes são colhidas e armazenadas em nosso sistema de armazenamento json. </div>
                     </div>
                   </div>
                   <div class="card">
                     <div class="card-header" id="heading3">
                       <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse3"
-                          aria-expanded="false" aria-controls="collapse3">What are some examples of permitted end
-                          products?</a> </h5>
+                          aria-expanded="false" aria-controls="collapse3">Como vocês sabem a atividade que um filme está gerando para indicá-lo no em alta?</a> </h5>
                     </div>
                     <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#popularTopics">
-                      <div class="card-body"> Iisque persius interesset his et, in quot quidam persequeris vim, ad mea
-                        essent possim iriure. Mutat tacimates id sit. Ridens mediocritatem ius an, eu nec magna
-                        imperdiet. </div>
+                      <div class="card-body"> Nosso programa analise atividades de avaliação, comentarios e pesquisas no site Imdb para classificar o filme como em alta.</div>
                     </div>
                   </div>
                 </div>
@@ -851,7 +847,9 @@
             <div class="alert alert-warning collapse" role="alert" id="collapseReferencias">
               <p>Apresente as referências bibliográficas utilizadas no projeto. Inclua itens como: (1) livros, artigos, tutoriais, etc. utilizados no desenvolvimento da solução; (2) links para sites, blogs, etc. utilizados no desenvolvimento da solução.</p>
             </div>
-            <p>......  COLOQUE AQUI O SEU TEXTO ......</p>
+            <p>https://developer.themoviedb.org/docs</p>
+            <p>https://youtu.be/qIGYM4S8x50?si=b7vgGl3JRKJOhtRW</p>
+            <p>https://youtu.be/we5Ac8U21lI?si=y_4i45n_NnFanMMU</p>
           </section>
 
         </div>
