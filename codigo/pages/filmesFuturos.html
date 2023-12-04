@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieHunter - Filmes Futuros</title>
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/filmesFuturos.css">
+    <script type="module" src="../assets/js/filmesFuturos.js"></script>
+  </head>
+<body class="text-light">
+  <nav>
+    <div class="row">
+      <div class="col-md-1 pl-4 pt-4 pb-3 pr-0">
+        <a href="index.html">
+          <img src="../assets/images/icons/logo.png" style="width: 100%; height: 60%; background-color: #d9d9d9;"></img>
+        </a>
+      </div>
+      <div class="col-md-3 pt-5">
+        <form onsubmit="return false;">
+          <input class="rounded-div" type="text" placeholder="Pesquisar" id="pesquisar">
+        </form>
+      </div>
+
+      <div class="col-md-4 text-center pt-3 pb-1">
+        <div class="row">
+          <div class="col-12">
+            <button class="recomendButton pt-2" id="openMovieRecomendation">
+              <img src="../assets/images/icons/starrrr.png" style="width: 30%;" alt="Recomende um filme">
+              <p class="text-dark">Recomende um filme</p>
+            </button>
+          </div>
+          <!-- <div class="col-12">
+            
+          </div> -->
+        </div>
+      </div>
+
+      <div class="col-md-1 offset-md-3 pt-3">
+        <a href="./minhaLista.html">
+          <img src="../assets/images/icons/face_smile_big_emoji_icon_181074.png"
+            style="width: 100%; background-color:#d9d9d9;" alt="Meu perfil">
+        </a>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Botao para retornar -->
+  <!-- <header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="d-flex">
+          <a class="" href="./index.html">
+            <img class="interative-icon img-fluid m-0 d-flex" src="../assets/images/icons/back.jpg" alt="back_icon">
+          </a>
+        </div>
+      </div>
+    </div>
+  </header> -->
+  <!-- Loading que sera exibido enq as requisicoes sao feitas -->
+  <h1 id="loading">Loading...</h1>
+
+
+  <!-- Mensagem caso nao ache nenhum filme -->
+  <h2 id="notFoundInfo"></h1>
+
+  <!-- Painel de filmes futuros, que serao adicionados dinamicamente -->
+  <div class="container-fluid">
+  
+    <div class="row mt-4" id="movies-painel">
+      <!-- <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 border-light">
+        <a href="movie.html" class="">
+          <img src="http://image.tmdb.org/t/p/w500/${movies[0].poster_path}" alt="${movies[0].title}">
+          <h2>${movies[0].title}</h2>
+        </a>
+      </div> -->
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,147 @@
+body{
+    background-color: #1B132E;
+}
+
+#poster{
+margin:20px ;
+width:20%
+}
+#titulofilme{
+    font-family:fantasy;
+    margin:20px;
+    padding:0%;
+    font-size: larger;
+    width:70%;
+    background-color: #c2b0ec;
+    float:right;
+    height: 10%;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+}
+#sinopse{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    Margin:20px;
+    margin-bottom: 5px;
+    padding:1%;
+    width:70%;
+    background-color: #c2b0ec;
+    float:right;
+    border-radius: 5px;
+    text-align: justify;
+}
+#notas{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #c2b0ec;
+    width:20%;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    font-size: large;
+}
+#streaming{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #c2b0ec;
+    width:70%;
+    float:right;
+    margin:20px;
+    border-radius: 5px;
+    text-align: justify;
+    font-size: 20px;
+    padding:0.5%;
+    margin-bottom: 0px;
+}
+#atores{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #c2b0ec;
+    width: 20%;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 0.5%;
+    margin-right: 2px;
+    float:left;
+}
+#review{
+    margin: 35px;
+    float:right;
+    background-color: #c2b0ec;
+    width: 70%;
+    border-radius: 5px;
+    padding: 1px;
+    text-align: justify;
+}
+
+/* PEDRO*/
+
+
+
+.botao {
+    filter: brightness(0) invert(1);
+    width: 20px; 
+    height: 20px;
+    float: left;
+}
+
+.caixa {
+    margin-left: 10px;
+    float: left;
+}
+
+.estrela {
+    display: inline-block;
+}
+
+.estrela-img {
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+    margin: 5px;
+    float: left;
+}
+
+.estrela-img.active {
+    content: url('../images/icons/estrela-amarela.png');
+    float: left;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-left: 10px; 
+    height: 20vh;
+    float: left;
+}
+
+#rating-value {
+    margin-left: 50px; 
+    display: flex;
+    margin-left: 200px;
+    align-items: center;
+    float: left;
+    background-color: #c2b0ec;
+    border-radius: 5px;
+}
+
+.comentario {
+    display: flex;
+    margin-right: 20px; 
+    float: left;
+}
+
+.comentario input {
+    color: black; 
+}
+
+#submit-comment {
+    color: initial; 
+    float: left;
+}
+
+.ranking {
+    margin-left: 100px;
+    float: left;
+    background-color: #c2b0ec;
+    border-radius: 5px;
+}

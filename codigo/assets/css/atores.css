@@ -1,0 +1,71 @@
+body{
+    background-color: #1B132E;
+}
+#fotoator{
+    width: 20%;
+    float:left;
+    margin:5px;
+}
+#Nome{
+font-size: 50px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background-color: #c2b0ec;
+width: 75%;
+float: right;
+border-radius: 5px;
+}
+#ocupacao{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #c2b0ec;
+    width: 23%;
+    float: right;
+    border-radius: 5px;
+    margin: 10px;
+    }
+#localnasci{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #c2b0ec;        
+    width: 23%;
+    float: right;
+    border-radius: 5px;
+    margin: 10px;
+    }
+#aniversario{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #c2b0ec;        
+    width: 23%;
+    float: right;
+    border-radius: 5px;
+    margin:10px;
+    }
+#biography{
+    margin: 10px;
+    font-size: 16px;
+    width: 75%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #c2b0ec;        
+    border-radius: 5px;
+    float:right;
+}
+.posterimg{
+float: left;
+margin:10px;
+width: 120px;
+}
+#foto{
+    float: left;
+}
+#titulos{
+    padding: 2px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #c2b0ec;        
+    width: 23%;
+    border-radius: 5px;
+    margin:10px;
+    float:left;
+    margin:50px;
+}

@@ -1,0 +1,85 @@
+body {
+  background-color: #1B132E;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav {
+  background-color: #d9d9d9;
+}
+
+.closeBtn {
+  display: flex;
+  justify-content: right;
+}
+
+button.closeBtn {
+  border-radius: 30rem;
+  background-color: #c0c0c0;
+}
+
+
+.openButton {
+  /* border: none; */
+  border-radius: 10rem;
+  background-color:rgba(0, 0, 0, 0.0);
+  color: white;
+  padding: 14px 20px;
+  cursor: pointer;
+}
+
+.openButtonGray {
+  /* border: none; */
+  border-radius: 10rem;
+  background-color: #d9d9d9;
+  color: black;
+  padding: 14px 20px;
+  cursor: pointer;
+}
+
+.recomendButton {
+  border: none;
+  border-radius: 10rem;
+  background-color:rgba(0, 0, 0, 0.0);
+  cursor: pointer;
+}
+
+.popUp {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  background-color: #d9d9d9;
+
+}
+
+.formPopup {
+  display: none;
+  position: fixed;
+  left: 45%;
+  top: 5%;
+  transform: translate(-50%, 5%);
+  border: 3px solid #999999;
+  border-radius: 5px;
+  z-index: 9;
+  /* background-color: #6a899d; */
+}
+
+.card-film {
+  border: 2px solid;
+  border-color:rgba(0, 0, 0, 0.2) ;
+  /* Estilo da borda branca */
+  padding: 10px;
+  /* Espaçamento interno para a borda */
+  /* Outros estilos de borda personalizados, se necessário */
+}
+
+.card-film:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.6);
+  transform: translateY(-5px);
+}
+
+.rounded-div {
+  border-radius: 0.8rem;
+  /* Altere o valor conforme necessário */
+  background-color: #f2f2f2;
+  /* Cor de fundo opcional */
+}

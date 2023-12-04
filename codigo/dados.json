@@ -1,0 +1,44 @@
+{
+  "avaliacoes": [
+    {
+      "id": 1,
+      "rating": "5",
+      "comment": "Muito bom o filme!"
+    },
+    {
+      "id": 2,
+      "rating": "4",
+      "comment": "Bom filme!"
+    },
+    {
+      "id": 3,
+      "rating": "3",
+      "comment": "Ok."
+    },
+    {
+      "rating": "4",
+      "comment": "fein",
+      "id": 4
+    },
+    {
+      "rating": "4",
+      "comment": "eu",
+      "id": 5
+    },
+    {
+      "rating": "4",
+      "comment": "ola",
+      "id": 6
+    },
+    {
+      "rating": "3",
+      "comment": "asf",
+      "id": 7
+    },
+    {
+      "rating": "4",
+      "comment": "bom demais",
+      "id": 8
+    }
+  ]
+}

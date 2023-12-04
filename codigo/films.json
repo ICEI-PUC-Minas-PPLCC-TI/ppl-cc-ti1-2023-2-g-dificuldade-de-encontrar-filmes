@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Encanto",
+        "gender": "action",
+        "cover": "./covers/d1.jpeg"
+    },
+    {
+        "name": "Wish",
+        "gender": "fantasia",
+        "cover": "./covers/download.jpeg"
+    },
+    {
+        "name": "Besouro Azul",
+        "gender": "action",
+        "cover": "./covers/images.jpeg"
+    },
+    {
+        "name": "Terrifier",
+        "gender": "romance",
+        "cover": "./covers/terrifier_2_poster_oficial.jpg"
+    },
+    {
+        "name": "O lar das crianças peculiares",
+        "gender": "terror",
+        "cover": "./covers/lardascriancaspeculiares_2.jpg"
+    },
+    {
+        "name": "Casa Gucci",
+        "gender": "drama",
+        "cover": "./covers/casa-gucci.jpg"
+    },
+    {
+        "name": "Veloses e Furiosos 9",
+        "gender": "action",
+        "cover": "./covers/3385237.jpg"
+    },
+    {
+        "name": "Star Wars: O despertar da força",
+        "gender": "action",
+        "cover": "./covers/starwars.jpg"
+    }
+]

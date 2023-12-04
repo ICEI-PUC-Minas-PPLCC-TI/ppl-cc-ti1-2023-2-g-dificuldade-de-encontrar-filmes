@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="../assets/js/filmeIndividual.js" defer></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/filmeIndividual.css">
+    <link rel="stylesheet" href="../assets/css/home.css">
+    <title>MovieHunter - Filme</title>
+</head>
+<body>
+
+    <nav>
+        <div class="row">
+          <div class="col-md-1 pl-4 pt-4 pb-3 pr-0">
+            <a href="index.html">
+              <img src="../assets/images/icons/logo.png" style="width: 100%; height: 60%; background-color: #d9d9d9;"></img>
+            </a>
+          </div>
+          <div class="col-md-3 pt-5">
+            <form onsubmit="return false;">
+              <input class="rounded-div" type="text" placeholder="Pesquisar" id="pesquisar">
+            </form>
+          </div>
+    
+          <div class="col-md-4 text-center pt-3 pb-1">
+            <div class="row">
+              <div class="col-12">
+                <button class="recomendButton pt-2" id="openMovieRecomendation">
+                  <img src="../assets/images/icons/starrrr.png" style="width: 30%;" alt="Recomende um filme">
+                  <p class="text-dark">Recomende um filme</p>
+                </button>
+              </div>
+              <!-- <div class="col-12">
+                
+              </div> -->
+            </div>
+          </div>
+    
+          <div class="col-md-1 offset-md-3 pt-3">
+            <a href="./minhaLista.html">
+              <img src="../assets/images/icons/face_smile_big_emoji_icon_181074.png"
+                style="width: 100%; background-color:#d9d9d9;" alt="Meu perfil">
+            </a>
+          </div>
+        </div>
+      </nav>
+
+<div id="titulofilme"></div>
+<div id="sinopse"></div>
+<div id="poster"></div>
+<div id="streaming"></div>
+<div id="notas"></div>
+<div id="atores"></div>
+<div id="review"></div>
+<form action="" method="get">
+</form>
+<div class="container">
+    <div class="estrela row">
+        <div class="col-12">
+            <img src="../assets/images/icons/estrela.png" class="estrela-img" data-avaliacao="1">
+            <img src="../assets/images/icons/estrela.png" class="estrela-img" data-avaliacao="2">
+            <img src="../assets/images/icons/estrela.png" class="estrela-img" data-avaliacao="3">
+            <img src="../assets/images/icons/estrela.png" class="estrela-img" data-avaliacao="4">
+            <img src="../assets/images/icons/estrela.png" class="estrela-img" data-avaliacao="5">
+        </div>
+        <div id="rating-value">
+            Avaliação: 0 estrelas
+        </div>
+    </div>
+<div class="comentario">
+<input type="text" id="comment-input" placeholder="Deixe seu comentário aqui"></input>
+<button type="button"   id="submit-comment">Enviar</button>
+<div class="comment">
+<ul id="comment-list"></ul>
+</div>
+</div>
+<div class="ranking">
+<h2>Ranking</h2>
+<ul id="ranking-list"></ul>
+</div>
+</div>
+<script type="module" src="../server.js" defer></script>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/c0c38a24b2.js" crossorigin="anonymous"></script>
+<script src="./scripts/script.js"></script>
+</html>
