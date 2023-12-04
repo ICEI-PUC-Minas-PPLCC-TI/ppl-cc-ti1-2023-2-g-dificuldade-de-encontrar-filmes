@@ -120,7 +120,7 @@ const filterSubmit = (event) => {
   localStorage.setItem('filterRequest', JSON.stringify(filterRequest));
 
   // Redireciona para a nova pagina
-  window.location.href = '/pages/filmesSugeridos.html';
+  window.location.href = 'filmesSugeridos.html';
 }
 
 // Envia formulario com os generos para redirecionamento dos filmes futuros
@@ -138,7 +138,7 @@ const genresSubmit = (event) => {
   localStorage.setItem('upcomingRequest', JSON.stringify(upcomingRequest));
 
   // Redireciona para a nova pagina
-  window.location.href = '/pages/filmesFuturos.html';
+  window.location.href = 'filmesFuturos.html';
 }
 const filtersForm = document.getElementById('filtersForm');
 const genresForm = document.getElementById('genresForm');
@@ -298,9 +298,9 @@ function renderFilms (movies) {
       const data = await response.json();
       console.log(data);
       // Neste exemplo, redirecionamos para a página do filme com base no ID do IMDB
-      window.location.href = `../../pages/filmeIndividual.html?id=${data.imdb_id}`;
+      window.location.href = `filmeIndividual.html?id=${data.imdb_id}`;
     });
-
+    window.href = '../..'
     const figureCaption = document.createElement('figcaption');
     figureCaption.textContent = film.title;
     figureCaption.classList.add("text-light")
@@ -322,7 +322,7 @@ function renderFilms (movies) {
     figureDiv.appendChild(likeButton);
     div.appendChild(figureDiv);
 
-    // Adiciona todos os elementos criados a rowCatalog, presente no index.html
+    // Adiciona todos os elementos criados a rowCatalog, presente no home.html
     rowCatalog.appendChild(div)
   })
 }

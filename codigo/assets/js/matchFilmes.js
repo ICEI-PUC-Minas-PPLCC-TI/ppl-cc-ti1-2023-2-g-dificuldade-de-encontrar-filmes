@@ -101,7 +101,7 @@ const filterSubmit = (event) => {
     localStorage.setItem('filterRequest', JSON.stringify(filterRequest));
   
     // Redireciona para a nova pagina
-    window.location.href = '/pages/filmesSugeridos.html';
+    window.location.href = 'filmesSugeridos.html';
   }
   
   // Envia formulario com os generos para redirecionamento dos filmes futuros
@@ -119,7 +119,7 @@ const filterSubmit = (event) => {
     localStorage.setItem('upcomingRequest', JSON.stringify(upcomingRequest));
   
     // Redireciona para a nova pagina
-    window.location.href = '/pages/filmesFuturos.html';
+    window.location.href = 'pages/filmesFuturos.html';
   }
   const filtersForm = document.getElementById('filtersForm');
   const genresForm = document.getElementById('genresForm');
@@ -315,7 +315,7 @@ function renderFilms (movies) {
     figureDiv.appendChild(likeButton);
     div.appendChild(figureDiv);
 
-    // Adiciona todos os elementos criados a rowCatalog, presente no index.html
+    // Adiciona todos os elementos criados a rowCatalog, presente no home.html
     rowCatalog.appendChild(div)
   })
 }

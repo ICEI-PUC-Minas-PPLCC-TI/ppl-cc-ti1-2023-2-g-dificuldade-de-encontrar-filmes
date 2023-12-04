@@ -83,7 +83,7 @@ const getMoviesByImdbID2 = async (id) => {
                         lista.textContent = actor.name;
                         lista.addEventListener('click', async () => {
                             // Neste exemplo, redirecionamos para a página do filme com base no ID do IMDB
-                            window.location.href = `../../pages/atores.html?id=${actor.id}`;
+                            window.location.href = `atores.html?id=${actor.id}`;
                         })
                         listaAtores.appendChild(lista);
                     }

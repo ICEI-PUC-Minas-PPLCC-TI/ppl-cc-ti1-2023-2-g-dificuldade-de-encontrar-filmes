@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MovieHunter</title>
+  <script type="module" src="../assets/js/main.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/css/home.css">
+</head>
+
+<body>
+
+  <nav>
+    <div class="row">
+      <div class="col-md-1 pl-4 pt-4 pb-3 pr-0">
+        <a href="home.html">
+          <img src="../assets/images/icons/logo.png" style="width: 100%; height: 60%; background-color: #d9d9d9;"></img>
+        </a>
+      </div>
+      <div class="col-md-3 pt-5">
+        <form onsubmit="return false;">
+          <input class="rounded-div" type="text" placeholder="Pesquisar" id="pesquisar">
+        </form>
+      </div>
+
+      <div class="col-md-4 text-center pt-3 pb-1">
+        <div class="row">
+          <div class="col-12">
+            <button class="recomendButton pt-2" id="openMovieRecomendation">
+              <img src="../assets/images/icons/starrrr.png" style="width: 30%;" alt="Recomende um filme">
+              <p class="text-dark">Recomende um filme</p>
+            </button>
+          </div>
+          <!-- <div class="col-12">
+            
+          </div> -->
+        </div>
+      </div>
+
+      <div class="col-md-1 offset-md-3 pt-3">
+        <a href="./minhaLista.html">
+          <img src="../assets/images/icons/face_smile_big_emoji_icon_181074.png"
+            style="width: 100%; background-color:#d9d9d9;" alt="Meu perfil">
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-3 ml-0 mb-0">
+    <div class="row mb-3 mb-0" id="selects">
+      <div class="col-md-2 pr-0">
+        <button id="botao-expansao" class="openButton">Expandir Filtros</button>
+        <div id="filtros" style="display: none;">
+        </div>
+      </div>
+      <div class="col-md-2">
+        <button id="botao-ordena" class="openButton">Ordenar</button>
+        <div id="ordena" style="display: none;">
+          <select name="ordenacao" id="ordenacao">
+            <option value="" label="Selecione uma opção"></option>
+            <option value="genre_ids" label="Gênero"></option>
+            <option value="title" label="Nome"></option>
+          </select>
+        </div>
+      </div>
+      <div class="col-md-2 ml-0 pl-0">
+        <button class="openButton" id="openUpcoming">Lançamentos</button>
+      </div>
+
+      <div class="col-md-2 ml-0 pl-0">
+        <a href="../pages/matchFilmes.html">
+          <button class="openButton" id="openUpcoming">Match de Filmes</button>
+        </a>
+      </div>
+
+      <div class="col-md-2 ml-0 pl-0">
+        <a href="../pages/filmesEmAlta.html">
+          <button class="openButton" id="openUpcoming">Filmes Em Alta</button>
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+  <div id="rowCatalog" class="row">
+
+  </div>
+  </div>
+  <div class="container text-center mx-auto">
+      <div class="pagination mt-4 d-flex justify-content-between align-items-center">
+        <button id="prevPage" class="openButton">Anterior</button>
+        <span class="text-light" id="currentPage">Página 1</span>
+        <button id="nextPage" class="openButton">Próxima</button>
+      </div>
+    </div>
+
+  <div class="popUp">
+    <div class="formPopup popUp" id="recomendationForm">
+      <div class="closeBtn">
+        <button class="closeBtn" id="closeMovieRecomendation"><strong>X</strong></button>
+      </div>
+      <h2>Preencha seus gostos:</h1>
+        <p>Não é necessário preencher TODOS os campos.</p>
+        <form class="popUp" id="filtersForm">
+          <div>
+            <div>
+              <label for="keyword">Palavra chave:</label>
+              <input type="text" id="keyword" name="keyword">
+            </div>
+  
+            <div id='checkBoxContainer1'></div>
+  
+            <div>
+              <p>Tipo de Filtro:
+              <p>
+                <input type="radio" id="typeFilter" name="typeFilter" value="and" required>
+                <label for="typeFilter">Filmes com TODOS os generos selecionados</label>
+                <br>
+                <input type="radio" id="typeFilter" name="typeFilter" value="or" required>
+                <label for="typeFilter">Filmes com ALGUM dos generos selecionados</label>
+            </div>
+  
+            <div>
+              <label for="minYear">Apartir do ano:</label>
+              <input type="number" id="minYear" name="minYear">
+  
+              <label for="maxYear">Ate o ano:</label>
+              <input type="number" id="maxYear" name="maxYear">
+            </div>
+  
+            <div>
+              <p>Tipo de show:
+              <p>
+                <input type="radio" id="typeShow" name="typeShow" value="movie" required>
+                <label for="typeShow">Filmes</label>
+                <br>
+                <input type="radio" id="typeShow" name="typeShow" value="series" required>
+                <label for="typeShow">Series</label>
+                <br>
+                <input type="radio" id="typeShow" name="typeShow" value="all" required>
+                <label for="typeShow">Todos</label>
+            </div>
+          </div>
+          <input type="submit" value="Enviar"></button>
+        </form>
+    </div>
+
+  </div>
+
+  <div class="">
+    <div class="formPopup popUp" id="upcomingForm">
+      <div class="closeBtn">
+        <button class="closeBtn" id="closeUpcoming"><strong>X</strong></button>
+      </div>
+      <h2>Selecione os generos dos lancamentos:</h1>
+        <form id="genresForm">
+          <div id='checkBoxContainer2'></div>
+          <input type="submit" value="Enviar"></button>
+        </form>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/c0c38a24b2.js" crossorigin="anonymous"></script>
+  <!-- <script src="./scripts/script.js"></script> -->
+
+</body>
+
+</html>

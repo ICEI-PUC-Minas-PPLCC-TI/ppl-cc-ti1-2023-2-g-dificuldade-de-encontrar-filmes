@@ -82,7 +82,7 @@ const constructor = (movies) => {
       const data = await response.json();
       console.log(data);
       // Neste exemplo, redirecionamos para a página do filme com base no ID do IMDB
-      window.location.href = `/codigo/pages/filmeIndividual.html?id=${data.imdb_id}`;
+      window.location.href = `filmeIndividual.html?id=${data.imdb_id}`;
     });
 
     movieDiv.appendChild(movieLink);

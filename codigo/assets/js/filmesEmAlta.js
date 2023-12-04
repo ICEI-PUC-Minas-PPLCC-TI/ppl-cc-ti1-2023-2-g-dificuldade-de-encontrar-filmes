@@ -53,7 +53,7 @@ async function openModal(movieId, title, overview, posterPath) {
 
         modalContent.innerHTML = `
             <h2>${title}</h2>
-            <a href="../../pages/filmeIndividual.html?id=${detailsData.imdb_id}">
+            <a href="filmeIndividual.html?id=${detailsData.imdb_id}">
             <img src="https://image.tmdb.org/t/p/w500/${posterPath}" alt="${title} Poster">
             </a>
             <p>${overview}</p>
