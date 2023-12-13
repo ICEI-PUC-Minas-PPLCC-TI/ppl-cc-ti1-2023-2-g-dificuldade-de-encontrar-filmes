@@ -1,31 +1,38 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
-authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names:
+title: MovieHunters
+authors: 
+  - family-names: Monteiro Alves
+    given-names: Enzo
+  - family-names: Franco Xavier
+    given-names: Gabryelle
+  - family-names: Martins dos Anjos
+    given-names: João Victor
+  - family-names: Siman Bitencourt
+    given-names: Pedro Henrique
+  - family-names: Soares Rosemberg
+    given-names: Pedro Henrique
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Vieira Carneiro
+    given-names: Rommel
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Mauro Pereira
+    given-names: Lúcio
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Nepomucemo Curto
+    given-names: Hayala
 keywords:
-  - 
-  - 
-repository-code: 
+  - Filmes
+  - Movies
+  - Catálogo de filmes
+  - Series
+  - Entretenimento
+  - Trabalho Interdisciplinar
+  - TMDB Movies
+repository-code: https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m-20232-dificuldade-de-encontrar-filmes/tree/master
 license: CC-BY-4.0
 version: 1.0.0
-date-released: 2022-07-14
+date-released: 2023-12-12
